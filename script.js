@@ -38,3 +38,4 @@ function getWeather() {
             const weatherInfo = document.getElementById('weatherInfo');
             weatherInfo.textContent = 'Error fetching weather data. Please try again.';
         });
+}
